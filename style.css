@@ -1,0 +1,184 @@
+
+.botões{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.botão1{
+    padding: 1rem;
+    background-color: rgb(6, 6, 160);
+    border-radius: 1.5rem;
+    width: 8rem;
+    height: 1rem;
+    text-align: center;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+
+}
+ 
+.botão1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.botão2{
+    padding: 1rem;
+    background-color: transparent;
+    border: 2px solid rgb(6, 6, 160);;
+    border-radius: 1.5rem;
+    width: 8rem;
+    height: 1rem;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+    margin-left: 1rem;
+}
+
+.botão2 a{
+    color: rgb(6, 6, 160);;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.texto{
+    text-align: center;
+}
+
+.subtitulo{
+    text-align: center;
+    color: rgb(65, 65, 65);
+    font-size: 1.1rem;
+}
+
+input{
+    border: 2px solid rgb(6, 6, 160);
+    width: 20rem;
+    height: 3rem;
+    border-radius: 1rem;
+
+}
+
+.input1{
+    text-align: center;
+    position: relative;
+}
+
+label {
+    text-align: center;
+    position: absolute;
+    top: 0.5rem;
+    transform: translate(10px, 10px);
+    transform-origin: left;
+    transition: transform .25s;
+
+}
+
+#nome{
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font: inherit;
+    color: #fff;
+    background-color: transparent;
+    outline: 2px solid #fff;
+}
+
+.input1:focus-within label{
+    transform: translate(0, -30px) scale(.8);
+    counter-reset: #d1c5fc;
+}
+
+.input1:focus-within #name{
+    outline-color: #d1c5fc;
+}
+
+
+.input2{
+    text-align: center;
+    position: relative;
+}
+.input2:focus-within label{
+    transform: translate(0, -30px) scale(.8);
+    counter-reset: #d1c5fc;
+}
+
+.input2:focus-within #name{
+    outline-color: #d1c5fc;
+}
+
+.esqueci{
+    text-align: center;
+}
+
+.esqueci a{
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+.ou p{
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.facebook{
+    display: flex;
+    align-items: center;
+    width: 12rem;
+    height: 2.7rem;
+    border: 1.5px solid blue;
+    border-radius: 0.6rem;
+}
+
+.imgF img{
+    padding-left: 0.4rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+
+.google{
+    display: flex;
+    align-items: center;
+    width: 12rem;
+    height: 2.7rem;
+    border: 1.5px solid blue;
+    border-radius: 0.6rem;
+
+}
+.imgg img{
+    padding-left: 0.6rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+.meios{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.textoF{
+    padding-left: 0.2rem;
+}
+.textoF a{
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+}
+
+.textog{
+    padding-left: 0.6rem;
+}
+
+.textog a{
+    text-decoration: none;
+    color: rgb(24, 23, 23);
+}
